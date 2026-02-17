@@ -1,0 +1,5 @@
+Payment API failures observed during peak hours.
+Root cause was downstream gateway timeout.
+Temporary fix involved increasing timeout threshold.
+Permanent fix required retry policy adjustment.
+

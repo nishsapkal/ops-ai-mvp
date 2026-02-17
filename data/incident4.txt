@@ -1,0 +1,5 @@
+Order delay reported in peak sale window.
+Root cause traced to database connection pool exhaustion.
+Temporary mitigation involved increasing connection pool size.
+Permanent fix involved query optimization and caching layer addition.
+

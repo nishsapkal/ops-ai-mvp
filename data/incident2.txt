@@ -1,0 +1,4 @@
+Order processing delays occurred due to Kafka consumer lag.
+Consumer group rebalance caused message backlog.
+Resolution involved scaling consumer instances.
+

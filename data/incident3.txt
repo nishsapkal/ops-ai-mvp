@@ -1,0 +1,5 @@
+Payment failures observed intermittently during network congestion.
+Some failures related to DNS resolution delay.
+Temporary mitigation involved switching to backup DNS.
+Permanent fix involved network routing optimization.
+

@@ -1,0 +1,16 @@
+During peak traffic hours multiple systems experienced degradation.
+
+Payment services saw gateway timeout issues in some regions.
+In other regions payment failures were caused by network DNS latency.
+
+Order processing systems saw delay due to Kafka consumer lag.
+Some order delays were also due to database connection pool exhaustion.
+
+Customer support also reported user errors during checkout which were not system related.
+
+In some environments retry policies were misconfigured causing duplicate requests.
+
+Temporary mitigations included scaling consumers, increasing timeout, and clearing stuck queues.
+
+Permanent fixes involved query optimization, caching layer introduction, and retry policy redesign.
+

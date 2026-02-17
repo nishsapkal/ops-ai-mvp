@@ -1,0 +1,5 @@
+Payment issues reported by customer support.
+Some issues were user input errors.
+Some were card authorization delays.
+Not related to system performance.
+
