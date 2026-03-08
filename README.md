@@ -1,7 +1,10 @@
 🧠 AI Incident Investigation Agent (RAG + Agentic AI)
 🚀 Enterprise-Grade AI Investigation Engine for Integration & Platform Incidents
 
+I built this to solve a real problem I see in enterprise integration platforms — ops teams spending hours manually correlating Kafka metrics, logs, and incident history. This agent automates that triage usinga multi-agent RAG architecture.
+
 This project demonstrates a minimal production-style AI Incident Investigation Agent combining:
+
 
 Retrieval Augmented Generation (RAG)
 
