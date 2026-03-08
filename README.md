@@ -151,6 +151,41 @@ Payment failures during peak load
 Kafka lag causing order delay
 Database timeout impacting API calls
 
+*** DEMO Execution START ***
+
+/opsai/incident_agent_main.py:110: LangChainDeprecationWarning: The class `Chroma` was deprecated in LangChain 0.2.9 and will be removed in 1.0. An updated version of the class exists in the langchain-chroma package and should be used instead. To use it run `pip install -U langchain-chroma` and import as `from langchain_chroma import Chroma`.
+  vector_db = Chroma(
+✅ Agent Ready!
+
+Describe Incident (type exit to quit): describe payment issues
+
+🧠 Step 1 — Planning Investigation...
+🛠 Tools Selected: ['knowledge_base', 'logs']
+
+⚙ Step 2 — Executing Tools...
+📄 Evidence Collected: {'logs': 'Observed timeout errors in payment service logs', 'knowledge_base': ''}
+
+🧠 Step 3 — Loading Past Incident Memory...
+
+🤖 Step 4 — Final Reasoning...
+
+🤖 Step 5 — Self Evaluation..
+
+🧪 Self Evaluation: {'is_reliable': True, 'confidence_adjustment': 'same', 'reason': 'The evidence provided directly supports the answer given. The observed timeout errors in the payment service logs align with the suggested root cause of a bottleneck or failure in the payment service. The suggested fix also logically follows from the identified root cause.'}
+
+🚨 INCIDENT ANALYSIS RESULT
+1. Most Likely Root Cause:
+   The most likely root cause of the payment issues is a bottleneck or failure in the payment service leading to timeout errors.
+
+2. Confidence:
+   Medium
+
+3. Suggested Fix:
+   Investigate the payment service to identify and resolve the bottleneck or failure causing the timeout errors. This may involve optimizing the service, increasing resources, or fixing any bugs in the code. Additionally, monitoring tools can be implemented to track performance and detect issues early on.
+
+====================================================================== 
+**** DEMO END ***
+
 🧠 Real Enterprise Use Cases
 Integration Platform AI Copilot
 
@@ -179,3 +214,5 @@ Agent Planning Memory
 Evaluation Metrics Dashboard
 
 Multi-Agent Collaboration
+
+
