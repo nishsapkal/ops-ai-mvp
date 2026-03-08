@@ -1,4 +1,4 @@
-🧠 AI Incident Investigation Agent (RAG + Agentic AI) ( read.me is generated using LLM so reach out in case of any issues, Thx)
+🧠 AI Incident Investigation Agent (RAG + Agentic AI)
 🚀 Enterprise-Grade AI Investigation Engine for Integration & Platform Incidents
 
 This project demonstrates a minimal production-style AI Incident Investigation Agent combining:
